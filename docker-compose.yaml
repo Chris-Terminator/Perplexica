@@ -4,7 +4,7 @@ services:
     ports:
       - '3000:3000'
     labels:
-      - 'traefik.http.middlewares.mybasicauth.basicauth.users=Chris_Term:$2y$05$b6zH.77nAXrMJpFj6s0aW.PlkxyUxsbZqPlCub7KFNqOonMtYNbGe'
+      - 'traefik.http.middlewares.mybasicauth.basicauth.users=Chris_Term:$2y$05$NoY4jL4if4eZeO5zubuSRO4ILH1E95UQ1OFvxaSSLPGsvvMvV36y2'
     volumes:
       - data:/home/perplexica/data
       - uploads:/home/perplexica/uploads
